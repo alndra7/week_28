@@ -53,7 +53,7 @@
 
 8. Напишите пример валидации текстового поля на React, чтобы оно было не пустым.
 
-    `import {useState} from 'react';
+    import {useState} from 'react';
 
     export default function App() {
       const [message, setMessage] = useState('');
@@ -89,11 +89,11 @@
           <button onClick={handleClick}>Check if input empty</button>
         </div>
       );
-    }`
+    }
 
 
 9. Приведите пример простейшей формы логина на сторонних компонентах (Formic, Material или Bootstrap на ваш выбор).
 
-    `<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+    <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
     <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
-    <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">`
+    <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
